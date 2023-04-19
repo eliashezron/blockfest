@@ -1,5 +1,7 @@
-import { useState } from "react"
-import { Link } from "react-router-dom"
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { GrClose } from 'react-icons/gr'
+import { RxHamburgerMenu } from 'react-icons/rx'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,60 +11,81 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex w-screen items-center justify-between flex-wrap bg-white-100 p-6'>
-      <div className='flex items-center flex-shrink-0 text-white mr-6'>
-        <span className='font-semibold text-xl tracking-tight'>Logo</span>
+    <nav className="relative flex flex-wrap items-center justify-between flex-1 p-6 bg-white bg-white-100">
+      <div className="flex items-center flex-1 text-white">
+        <span className="text-xl font-semibold tracking-tight text-neutral-700">
+          Logo
+        </span>
       </div>
-      <div className='block lg:hidden'>
-        <button
-          className='flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white'
-          onClick={toggleMenu}
-        >
-          <svg
-            className='fill-current h-3 w-3'
-            viewBox='0 0 20 20'
-            xmlns='http://www.w3.org/2000/svg'
+
+      <div className="flex md:hidden" onClick={toggleMenu}>
+        <RxHamburgerMenu size={22} />
+      </div>
+
+      {isOpen && (
+        <div className="absolute top-0 bottom-0 left-0 right-0 z-50 flex flex-col w-full h-screen p-5 bg-white">
+          <button
+            className="flex items-center self-end px-3 py-2"
+            onClick={toggleMenu}
           >
-            <title>Menu</title>
-            <path d='M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z' />
-          </svg>
-        </button>
-      </div>
+            <GrClose size={25} />
+          </button>
+
+          <div className="flex flex-col items-center flex-1 pt-16">
+            <Link to="/" className="block mb-8 text-3xl font-light">
+              About
+            </Link>
+            <Link to="/" className="block mb-8 text-3xl font-light">
+              Apply
+            </Link>
+            <Link to="/" className="block mb-8 text-3xl font-light">
+              Sponsors
+            </Link>
+            <Link to="/" className="block mb-8 text-3xl font-light">
+              Sign In
+            </Link>
+            <Link to="/" className="block text-3xl font-light ">
+              Sign Up
+            </Link>
+          </div>
+        </div>
+      )}
+
       <div
         className={`w-full flex-grow lg:flex lg:items-center lg:w-auto ${
-          isOpen ? "" : "hidden"
+          isOpen ? '' : 'hidden'
         }`}
       >
-        <div className='text-sm lg:flex-grow'>
+        <div className="flex items-center flex-1 text-sm lg:flex-grow">
           <Link
-            to='/'
-            className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
+            to="/"
+            className="block text-lg font-light lg:inline-block lg:mt-0 hover:text-neutral-300"
           >
             About
           </Link>
           <Link
-            to='/'
-            className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
+            to="/"
+            className="block mx-6 text-lg font-light lg:inline-block lg:mt-0 hover:text-neutral-300"
           >
             Apply
           </Link>
           <Link
-            to='/sponsors'
-            className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
+            to="/sponsors"
+            className="block text-lg font-light lg:inline-block lg:mt-0 hover:text-neutral-300"
           >
             Sponsors
           </Link>
         </div>
         <div>
           <Link
-            to='/'
-            className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4'
+            to="/"
+            className="block mt-4 mr-4 text-teal-400 lg:inline-block lg:mt-0 hover:text-white"
           >
             Sign In
           </Link>
           <Link
-            to='/'
-            className='block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white'
+            to="/"
+            className="block mt-4 text-teal-200 lg:inline-block lg:mt-0 hover:text-white"
           >
             Sign Up
           </Link>
