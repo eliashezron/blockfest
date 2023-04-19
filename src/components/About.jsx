@@ -2,7 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="flex items-center justify-center w-full h-screen ">
+    <div
+      className="flex items-center justify-center w-full h-screen "
+      id="about"
+    >
       <div className="max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
         <h1 className="mb-4 text-5xl font-bold text-center md:text-5xl">
           BlockBunch

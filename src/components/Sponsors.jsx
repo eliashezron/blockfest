@@ -1,6 +1,9 @@
 const Sponsors = () => {
   return (
-    <div className="flex items-center justify-center py-20 bg-white">
+    <section
+      className="flex items-center justify-center py-20 bg-white"
+      id="sponsors"
+    >
       <div className="container px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <h1 className="mb-8 text-3xl font-bold text-center md:text-5xl">
           Sponsors
@@ -43,7 +46,7 @@ const Sponsors = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

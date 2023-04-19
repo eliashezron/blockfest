@@ -3,7 +3,7 @@ import backgroundImage from '../assets/img/cloth.jpg'
 
 const Home = () => {
   return (
-    <div className="flex items-center justify-center h-screen px-4 ">
+    <div className="flex items-center justify-center h-screen px-4 " id="hero">
       <div className="text-center">
         <h1 className="mb-4 text-5xl font-bold text-gray-800 md:text-9xl">
           Welcome to the Blockchain DevFest

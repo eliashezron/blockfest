@@ -2,7 +2,10 @@ import React from 'react'
 
 const Apply = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-screen p-4 bg-apply-img bg-blend-darken md:p-0 ">
+    <section
+      className="flex flex-col items-center justify-center h-screen p-4 bg-apply-img bg-blend-darken md:p-0"
+      id="apply"
+    >
       <h2 className="my-5 text-4xl font-bold text-center text-white md:my-10">
         Apply to Join
       </h2>
@@ -11,8 +14,8 @@ const Apply = () => {
           <div className="px-6 py-8">
             <h3 className="mb-4 text-xl font-bold">Apply to be a Hacker</h3>
             <p className="text-base text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              tincidunt lorem ac ipsum lobortis rhoncus.
+              Create innovative solutions for real-world problems using
+              blockchain
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">
@@ -26,8 +29,7 @@ const Apply = () => {
           <div className="px-6 py-8">
             <h3 className="mb-4 text-xl font-bold">Apply to be a Sponsor</h3>
             <p className="text-base text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              tincidunt lorem ac ipsum lobortis rhoncus.
+              support the next generation of East Africa's developers.
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">
@@ -41,8 +43,8 @@ const Apply = () => {
           <div className="px-6 py-8">
             <h3 className="mb-4 text-xl font-bold">Apply to Speak</h3>
             <p className="text-base text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              tincidunt lorem ac ipsum lobortis rhoncus.
+              Share your industry experience and expertise with the developer
+              community in Uganda.
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">

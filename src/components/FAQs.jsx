@@ -36,7 +36,10 @@ const FAQs = () => {
   }
 
   return (
-    <footer className="h-screen bg-gradient-to-r from-purple-500 to-pink-500 pt-11">
+    <footer
+      className="h-screen bg-gradient-to-r from-yellow-500 to-black-500 pt-11"
+      id="FAQs"
+    >
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <h2 className="mb-4 text-4xl font-bold text-gray-800">FAQs</h2>
         <div className="flex flex-col space-y-4">
