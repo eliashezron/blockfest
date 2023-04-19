@@ -1,19 +1,20 @@
-import React from "react"
+import React from 'react'
+import backgroundImage from '../assets/img/cloth.jpg'
 
 const Home = () => {
   return (
-    <div className='h-screen-viewport-nav flex items-center justify-center bg-gray-100 px-4 sm:px-6 lg:px-8'>
-      <div className='text-center'>
-        <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4'>
+    <div className="flex items-center justify-center h-screen px-4 ">
+      <div className="text-center">
+        <h1 className="mb-4 text-5xl font-bold text-gray-800 md:text-9xl">
           Welcome to the Blockchain DevFest
         </h1>
-        <p className='text-lg sm:text-xl md:text-2xl text-gray-600 mb-8'>
+        <p className="mb-8 text-lg text-gray-600 sm:text-xl md:text-2xl">
           Join us for an exciting week leading up to the main event, where we'll
           host an ideathon that encourages participants to generate and refine
           ideas for potential blockchain applications that address pressing
           African challenges.
         </p>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+        <button className="p-5 px-8 text-lg font-bold text-white rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-blue-700">
           Get Started
         </button>
       </div>

@@ -1,50 +1,45 @@
 const Sponsors = () => {
   return (
-    <div className='bg-gray-100'>
-      <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-8'>
-        <h1 className='text-3xl md:text-5xl font-bold text-center mb-8'>
+    <div className="flex items-center justify-center py-20 bg-white">
+      <div className="container px-4 py-8 mx-auto sm:px-6 lg:px-8">
+        <h1 className="mb-8 text-3xl font-bold text-center md:text-5xl">
           Sponsors
         </h1>
-        <div className='flex flex-row flex-wrap justify-center'>
+        <div className="flex flex-row flex-wrap justify-evenly">
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
           <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
-          />
-          <img
-            src='https://cryptologos.cc/logos/tether-usdt-logo.png?v=024'
-            alt='sponsor'
-            className='w-24 sm:w-32 h-24 sm:h-32 mx-1 sm:mx-2 mb-4'
+            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
+            alt="sponsor"
+            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
           />
         </div>
       </div>

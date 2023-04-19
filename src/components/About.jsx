@@ -1,13 +1,13 @@
-import React from "react"
+import React from 'react'
 
 const About = () => {
   return (
-    <div className='min-h-screen w-screen bg-gray-100 flex justify-center items-center'>
-      <div className='max-w-2xl px-4 py-8 sm:px-6 lg:px-8'>
-        <h1 className='text-2xl md:text-5xl font-bold text-center mb-4'>
+    <div className="flex items-center justify-center w-full h-screen ">
+      <div className="max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
+        <h1 className="mb-4 text-5xl font-bold text-center md:text-5xl">
           BlockBunch
         </h1>
-        <p className='text-base sm:text-lg md:text-xl text-gray-700 leading-7'>
+        <p className="text-base leading-7 text-gray-700 sm:text-lg md:text-2xl">
           BlockBunch is a community of developers and educators who strive to
           promote the widespread adoption of blockchain technologies in Uganda.
           By demystifying complex blockchain concepts, the team actively
