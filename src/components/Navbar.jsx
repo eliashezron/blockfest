@@ -82,19 +82,39 @@ const Navbar = () => {
             Sponsors
           </Link>
         </div>
-        <div>
-          <button>
+        <div className="flex flex-row">
+          <a
+            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            className="font-bold text-gray-800 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTelegramPlane size={25} />
-          </button>
-          <button>
+          </a>
+          <a
+            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            className="font-bold text-gray-800 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter size={25} />
-          </button>
-          <button>
+          </a>
+          <a
+            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            className="font-bold text-gray-800 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaDiscord size={25} />
-          </button>
-          <button>
+          </a>
+          <a
+            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            className="font-bold text-gray-800 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaWhatsappSquare size={25} />
-          </button>
+          </a>
         </div>
       </div>
     </nav>

@@ -19,7 +19,12 @@ const Apply = () => {
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">
-            <a href="#" className="font-bold text-gray-800 hover:underline">
+            <a
+              href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+              className="font-bold text-gray-800 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Apply Now
             </a>
           </div>
@@ -33,7 +38,12 @@ const Apply = () => {
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">
-            <a href="#" className="font-bold text-gray-800 hover:underline">
+            <a
+              href="https://forms.gle/PD6zgaYc3C5sw6iE8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-gray-800 hover:underline"
+            >
               Apply Now
             </a>
           </div>
@@ -48,7 +58,12 @@ const Apply = () => {
             </p>
           </div>
           <div className="flex items-center justify-between px-6 py-4 bg-gray-200">
-            <a href="#" className="font-bold text-gray-800 hover:underline">
+            <a
+              href="https://forms.gle/cCUPrqHxejbgXT8E8"
+              className="font-bold text-gray-800 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Apply Now
             </a>
           </div>
