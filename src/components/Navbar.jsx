@@ -84,7 +84,7 @@ const Navbar = () => {
         </div>
         <div className="flex flex-row">
           <a
-            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            href="https://t.me/+gVB3CndRMiM2ODM0"
             className="font-bold text-gray-800 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +92,7 @@ const Navbar = () => {
             <FaTelegramPlane size={25} />
           </a>
           <a
-            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            href="https://www.twitter.com/0xblockbunch"
             className="font-bold text-gray-800 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const Navbar = () => {
             <FaTwitter size={25} />
           </a>
           <a
-            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            href="https://discord.gg/V9hN6j4R"
             className="font-bold text-gray-800 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
@@ -108,7 +108,7 @@ const Navbar = () => {
             <FaDiscord size={25} />
           </a>
           <a
-            href="https://www.eventbrite.com/e/blockchain-devfest-2023-tickets-619578545107"
+            href="https://chat.whatsapp.com/KJLLWVjc1iqFRJftlkhAog"
             className="font-bold text-gray-800 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
