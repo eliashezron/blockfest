@@ -7,7 +7,7 @@ import {
   FaDiscord,
   FaWhatsappSquare,
 } from 'react-icons/fa'
-import { RxHamburgerMenu } from 'react-icons/rx'
+// import { RxHamburgerMenu } from 'react-icons/rx'
 import logo from '../assets/img/logo.png'
 
 const Navbar = () => {
@@ -25,10 +25,44 @@ const Navbar = () => {
         </span>
       </div>
 
-      <div className="flex md:hidden" onClick={toggleMenu}>
-        <RxHamburgerMenu size={22} />
+      <div className="flex md:hidden flex-row">
+        <a
+          href="https://t.me/+gVB3CndRMiM2ODM0"
+          className="font-bold text-gray-800 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTelegramPlane size={25} />
+        </a>
+        <a
+          href="https://www.twitter.com/0xblockbunch"
+          className="font-bold text-gray-800 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter size={25} />
+        </a>
+        <a
+          href="https://discord.gg/V9hN6j4R"
+          className="font-bold text-gray-800 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaDiscord size={25} />
+        </a>
+        <a
+          href="https://chat.whatsapp.com/KJLLWVjc1iqFRJftlkhAog"
+          className="font-bold text-gray-800 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsappSquare size={25} />
+        </a>
       </div>
 
+      {/* <div className="flex md:hidden" onClick={toggleMenu}>
+        <RxHamburgerMenu size={22} />
+      </div> */}
       {isOpen && (
         <div className="absolute top-0 bottom-0 left-0 right-0 z-50 flex flex-col w-full h-screen p-5 bg-white">
           <button
