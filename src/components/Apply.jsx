@@ -6,7 +6,7 @@ const Apply = () => {
       className="flex flex-col items-center justify-center h-screen p-4 bg-apply-img bg-blend-darken md:p-0"
       id="apply"
     >
-      <h2 className="my-5 text-4xl font-bold text-center text-white md:my-10">
+      <h2 className="my-5 text-4xl font-bold text-center text-black md:my-10">
         Apply to Join
       </h2>
       <div className="flex flex-wrap justify-center">
