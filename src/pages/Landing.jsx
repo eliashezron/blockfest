@@ -7,7 +7,7 @@ import About from '../components/About'
 import FAQs from '../components/FAQs'
 import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
-import { Testimonials } from '../components/Testimonials'
+// import { Testimonials } from '../components/Testimonials'
 
 const Landing = () => {
   return (
@@ -17,7 +17,7 @@ const Landing = () => {
       <Apply />
       <Sponsors />
       <Gallery />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <About />
       <FAQs />
       <Footer />

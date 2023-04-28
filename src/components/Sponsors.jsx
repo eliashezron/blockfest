@@ -1,3 +1,6 @@
+import img4 from '../assets/img/innovationVillageLogo.png'
+import img3 from '../assets/img/worldcoinlogo.jpeg'
+
 const Sponsors = () => {
   return (
     <section
@@ -9,7 +12,30 @@ const Sponsors = () => {
           Sponsors
         </h1>
         <div className="flex flex-row flex-wrap justify-evenly">
-          <img
+          <a
+            href="https://innovationvillage.co.ug/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={img4}
+              alt="sponsor"
+              className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
+            />
+          </a>
+
+          <a
+            href="https://worldcoin.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={img3}
+              alt="sponsor"
+              className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
+            />
+          </a>
+          {/* <img
             src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
             alt="sponsor"
             className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
@@ -33,17 +59,7 @@ const Sponsors = () => {
             src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
             alt="sponsor"
             className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
-          />
-          <img
-            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
-            alt="sponsor"
-            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
-          />
-          <img
-            src="https://cryptologos.cc/logos/tether-usdt-logo.png?v=024"
-            alt="sponsor"
-            className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
-          />
+          /> */}
         </div>
       </div>
     </section>

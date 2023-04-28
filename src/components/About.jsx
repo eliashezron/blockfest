@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
         <h1 className="mb-4 text-5xl font-bold text-center md:text-5xl">
-          BlockBunch
+          About BlockBunch
         </h1>
         <p className="text-base leading-7 text-gray-700 sm:text-lg md:text-2xl">
           BlockBunch is a community of developers and educators who strive to
