@@ -15,7 +15,7 @@ const FAQs = () => {
     {
       question: 'How do I become a sponsor?',
       answer:
-        "If you're interested in becoming a sponsor, you can contact us through our Contact page or email us at sponsors@blockbunch.com.",
+        "If you're interested in becoming a sponsor, Please fill out the sponsorship form and we shall reachout to you.",
     },
     {
       question: 'How can I become a speaker?',
@@ -24,8 +24,7 @@ const FAQs = () => {
     },
     {
       question: 'How can I get in touch with BlockBunch?',
-      answer:
-        'You can contact us through our Contact page, email us at contact@blockbunch.com, or follow us on our social media channels.',
+      answer: 'You can contact us through our social media channels.',
     },
   ])
 

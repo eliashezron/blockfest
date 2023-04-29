@@ -1,5 +1,4 @@
 import React from 'react'
-// import backgroundImage from '../assets/img/cloth.jpg'
 
 const Home = () => {
   const handleClick = () => {
@@ -11,7 +10,7 @@ const Home = () => {
     <div className="flex items-center justify-center h-screen px-4 " id="hero">
       <div className="text-center">
         <h1 className="mb-4 text-5xl font-bold text-gray-800 md:text-9xl">
-          Welcome to the Blockchain DevFest
+          Welcome to the Blockchain DevFest 2023
         </h1>
         <p className="mb-8 text-lg text-gray-600 sm:text-xl md:text-2xl">
           Join us for an exciting week leading up to the main event, where we'll
@@ -23,7 +22,7 @@ const Home = () => {
           className="p-5 px-8 text-lg font-bold text-white rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 hover:bg-blue-700"
           onClick={handleClick}
         >
-          Get Started
+          Register Now
         </button>
       </div>
     </div>
