@@ -4,7 +4,7 @@ import celologo from '../assets/celo-logo.png'
 import muda from '../assets/mudaLogo.png'
 import ngeni from '../assets/ngeni.png'
 import binusu from '../assets/binusu.png'
-import nileone from '../assets/n1Logopng.png'
+import base from '../assets/base.jpeg'
 import motiv from '../assets/motivimg.jpeg'
 
 const Sponsors = () => {
@@ -94,7 +94,7 @@ const Sponsors = () => {
             rel="noopener noreferrer"
           >
             <img
-              src={nileone}
+              src={base}
               alt="sponsor"
               className="w-24 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
             />
