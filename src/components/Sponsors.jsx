@@ -88,11 +88,7 @@ const Sponsors = () => {
               className="w-28 h-24 mx-1 mb-4 sm:w-32 sm:h-32 sm:mx-2"
             />
           </a>
-          <a
-            href="https://nileone.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://base.org/" target="_blank" rel="noopener noreferrer">
             <img
               src={base}
               alt="sponsor"
